@@ -1,0 +1,39 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/micah/Documents/Uni/CAB202/tutorial03/include",
+                "/Users/micah/Documents/Uni/CAB202/tutorial03/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/micah/Documents/Uni/CAB202/tutorial03/include",
+                    "/Users/micah/Documents/Uni/CAB202/tutorial03/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=3333333L",
+                "PLATFORMIO=60111",
+                "__AVR_DEV_LIB_NAME__=tn1626",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/micah/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=attiny1626",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
