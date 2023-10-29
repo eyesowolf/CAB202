@@ -1,5 +1,8 @@
 # Prerequisites
 *.d
+*.DS_Store
+*.vscode
+*.pio/build
 
 # Object files
 *.o
